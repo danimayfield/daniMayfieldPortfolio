@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Slider from 'react-perfect-slider';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Slider
+        renderControls={(next, previous) => [
+          <button onClick={previous}>Previous</button>,
+          <button onClick={next}>Next</button>,
+        ]}  
+      >
+        <div>
+          <h1>slide 1</h1>
+          <p>Slide 1</p>
+          <a href="www.facebokk.com">test</a>
+        </div>
+        <div>Slide 2</div>
+        <div>Slide 3</div>
+      </Slider>
     </div>
   );
 }
