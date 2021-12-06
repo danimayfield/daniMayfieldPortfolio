@@ -1,0 +1,15 @@
+@import './sass/generalStyles';
+@import './sass/header';
+@import './sass/navigation';
+@import './sass/toc';
+@import './sass/about';
+@import './sass/projects';
+@import './sass/contact';
+
+.logo {
+    width: 8%;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 20;
+}

@@ -1,22 +1,26 @@
-import Slider from 'react-perfect-slider';
+import "./App.scss";
+import Header from "./components/Header";
+import TOC from "./components/TOC";
+import About from "./components/About";
+import Projects from "./components/ProjectsSlider";
+import Contact from "./components/Contact";
+import Navigation from "./components/Navigation";
+import logo from './images/DMLogo.png'
+
+
 
 function App() {
   return (
     <div>
-      <Slider
-        renderControls={(next, previous) => [
-          <button onClick={previous}>Previous</button>,
-          <button onClick={next}>Next</button>,
-        ]}  
-      >
-        <div>
-          <h1>slide 1</h1>
-          <p>Slide 1</p>
-          <a href="www.facebokk.com">test</a>
-        </div>
-        <div>Slide 2</div>
-        <div>Slide 3</div>
-      </Slider>
+      <img className="logo" src={logo} alt="Dani Mayfield Logo" />
+      <Header/>
+      <Navigation/>
+      <TOC/>
+      <main>
+        <About/>
+        <Projects />
+        <Contact/>
+      </main>
     </div>
   );
 }

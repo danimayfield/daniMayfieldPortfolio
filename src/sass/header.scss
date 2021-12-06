@@ -1,0 +1,31 @@
+header {
+    height: 80vh;
+    position: relative;
+    
+    .headerText {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    h1 {
+        text-align: left;
+        width: 30%;
+        margin-left: 20vw;
+    }
+    h3 {
+        text-align: left;
+        width: 30%;
+        margin-top:0;
+        margin-left: 20vw;
+    }
+    .blob {
+        position: absolute;
+        top:15vh;
+        left: -16vw;
+        z-index: 1;
+        transform: rotate(20deg);
+        width: 50%;
+    }
+
+}
