@@ -9,6 +9,7 @@ function Navigation() {
   // Call useScrollHandler function:
   const scroll = useScrollHandler()
 
+
   // Function to scroll smoothly & set active type on click
   const handleMenuClick = (e) => {
     // set variable menu to the element with the id of menu
@@ -22,13 +23,6 @@ function Navigation() {
     // set the active type to be menu
     setActiveType('menu')
 
-    // Remove the class of navActive from all other id's on click of this id
-    const about = document.getElementById("about");
-    about.classList.remove("navActive")
-    const contact = document.getElementById("contact");
-    contact.classList.remove("navActive")
-    const projects = document.getElementById("projects");
-    projects.classList.remove("navActive")
   }
 
   // Function to scroll smoothly & set active type on click
@@ -44,13 +38,6 @@ function Navigation() {
     // Set the active type to 'about' on click
     setActiveType('about')
 
-    // Remove the class of navActive from all other id's on click of this id
-    const menu = document.getElementById("menu");
-    menu.classList.remove("navActive")
-    const contact = document.getElementById("contact");
-    contact.classList.remove("navActive")
-    const projects = document.getElementById("projects");
-    projects.classList.remove("navActive")
   }
 
   // Function to scroll smoothly & set active type on click
@@ -66,13 +53,6 @@ function Navigation() {
     // Set the activetype to be projects
     setActiveType('projects')
 
-    // Remove the class of navActive from all other id's on click of this id
-    const menu = document.getElementById("menu");
-    menu.classList.remove("navActive")
-    const contact = document.getElementById("contact");
-    contact.classList.remove("navActive")
-    const about = document.getElementById("about");
-    about.classList.remove("navActive")
   }
 
   // Function to scroll smoothly & set active type on click
@@ -88,13 +68,6 @@ function Navigation() {
     // Set the activetype to be contact
     setActiveType('contact')
 
-    // Remove the class of navActive from all other id's on click of this id
-    const menu = document.getElementById("menu");
-    menu.classList.remove("navActive")
-    const projects = document.getElementById("projects");
-    projects.classList.remove("navActive")
-    const about = document.getElementById("about");
-    about.classList.remove("navActive")
   }
 
 
@@ -105,30 +78,30 @@ function Navigation() {
         href="#menu"
         // On click function to scroll smoothly
         onClick={handleMenuClick}
-        // Set the class name to navIcon and set the classname to navActive if the active type matches 'menu' or the scroll matches 'menu'
-        className={`navIcon ${(activeType === 'menu') || (scroll === 'menu') ? 'navActive' : null}`}
+        // Set the class name to navIcon and set the classname to navActive if the active type matches 'menu' or the scroll matches 'menu' - if the scroll does not match 'menu' set it to navInactive
+        className={`navIcon ${(activeType === 'menu') || (scroll === 'menu') ? 'navActive' : null} ${scroll !== 'menu' ? 'navInactive' : null}`}
       ><BsCircleFill /></a>
       <a
         href="#about"
         // On click function to scroll smoothly
         onClick={handleAboutClick}
-        // Set the class name to navIcon and se the classname to navActive if the active type matches 'about' or the scroll matches 'about'
-        className={`navIcon ${(activeType === 'about') || (scroll === "about") ? 'navActive' : null}`}
+        // Set the class name to navIcon and set the classname to navActive if the active type matches 'about' or the scroll matches 'about' - if the scroll does not match 'about' set it to navInactive
+        className={`navIcon ${(activeType === 'about') || (scroll === "about") ? 'navActive' : null} ${scroll !== 'about' ? 'navInactive' : null}`}
       ><BsCircleFill /></a>
       <a
         href="#projects"
         // On click function to scroll smoothly
         onClick={handleProjectsClick}
-        // Set the class name to navIcon and se the classname to navActive if the active type matches 'projects' or the scroll matches 'projects'
-        className={`navIcon ${(activeType === 'projects') || (scroll === "projects") ? 'navActive' : null}`}
+        // Set the class name to navIcon and se the classname to navActive if the active type matches 'projects' or the scroll matches 'projects' - if the scroll does not match 'projects' set it to navInactive
+        className={`navIcon ${(activeType === 'projects') || (scroll === "projects") ? 'navActive' : null} ${scroll !== 'projects' ? 'navInactive' : null}`}
 
       ><BsCircleFill /></a>
       <a
         href="#contact"
         // On click function to scroll smoothly
         onClick={handleContactClick}
-        // Set the class name to navIcon and set the classname to navActive if the active type matches 'contact' or the scroll matches 'contact'
-        className={`navIcon ${(activeType === 'contact') || (scroll === "contact") ? 'navActive' : null}`}
+        // Set the class name to navIcon and set the classname to navActive if the active type matches 'contact' or the scroll matches 'contact' - if the scroll does not match 'contact' set it to navInactive
+        className={`navIcon ${(activeType === 'contact') || (scroll === "contact") ? 'navActive' : null} ${scroll !== 'contact' ? 'navInactive' : null}`}
       ><BsCircleFill /></a>
     </div>
   );
