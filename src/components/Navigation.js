@@ -1,6 +1,6 @@
 import { BsCircleFill } from "react-icons/bs";
 import { useState } from 'react';
-import useScrollHandler from "./Scroll";
+import useScrollHandler from "./NavScroll";
 
 
 function Navigation() {
