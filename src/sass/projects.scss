@@ -88,13 +88,13 @@
     }
     .linkHolder {
         display: inline-block;    
-        -webkit-animation-duration: 1s;
         animation-duration: 1s;
-        -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
-        -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        -webkit-animation-timing-function: ease-in-out;
         -webkit-animation-iteration-count: infinite;
       }
       .linkHolder:hover {
@@ -130,6 +130,5 @@
     right:0;
     bottom:-60vh;
     z-index: 20;
-    overflow:hidden;
 }
 

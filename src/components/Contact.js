@@ -1,18 +1,17 @@
-import { FiLinkedin, FiGithub } from "react-icons/fi";
-// import blob from '../images/4.png'
+import { FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 
 function Contact() {
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
       <h2>Contact</h2>
-      <a href="#">danimmayfield@gmail.com</a>
+      <a href="mailto:danimmayfield@gmail.com">danimmayfield@gmail.com</a>
       <div className="iconContainer">
         <div className="iconHolder"><a className="contactIcon" href="https://www.linkedin.com/in/daniella-mayfield-5a6a99222/"><FiLinkedin/></a></div>
         <div className="iconHolder"><a className="contactIcon" href="https://github.com/danimayfield"><FiGithub/></a></div>
+        <div className="iconHolder"><a className="contactIcon" href="mailto:danimmayfield@gmail.com"><FiMail/></a></div>
         
       </div>
       <p>Website developed by Dani Mayfield 2021</p>
-      {/* <img className="blob3" src={blob} alt="" /> */}
     </div>
   );
 }

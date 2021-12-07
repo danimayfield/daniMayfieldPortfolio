@@ -1,7 +1,7 @@
 import Slider from "react-perfect-slider";
 import {
   FiGithub,
-  FiExternalLink,
+  FiLink,
   FiArrowLeft,
   FiArrowRight,
 } from "react-icons/fi";
@@ -12,11 +12,10 @@ import blob from "../images/4.png";
 
 function Projects() {
   return (
-    <div className="sliderContainer">
+    <div className="sliderContainer" id="projects">
       <h2>Projects</h2>
       <Slider
         autoplayDuration={6000}
-        autoplay={false}
         renderControls={(next, previous) => [
           <button className="prev" onClick={previous}>
             <FiArrowLeft />
@@ -29,7 +28,7 @@ function Projects() {
         <div className="proj1">
           <img
             src={ethicalMakeup}
-            alt="mock up image of Ethical Makeup website on fake laptop screen"
+            alt="mock up of Ethical Makeup website on fake laptop screen"
           />
           <h4>Ethical Makeup</h4>
           <p>
@@ -47,17 +46,17 @@ function Projects() {
             </div>
             <div className="linkHolder">
               <a href="https://ethical-makeup-4.netlify.app">
-                <FiExternalLink />
+                <FiLink />
               </a>
             </div>
           </div>
 
-          <p>React | Javascript | APIs | Firebase | GitHub | Sass | HTML</p>
+          <p>React | Javascript | APIs | Firebase | GitHub | Sass | Figma | HTML</p>
         </div>
         <div className="proj2">
           <img
             src={sprinklingRainbows}
-            alt="mock up image of Sprinkling Rainbows website on fake laptop screen"
+            alt="mock up of Sprinkling Rainbows Shop website on fake laptop screen"
           />
           <h4>Sprinkling Rainbows Shop</h4>
           <p>
@@ -73,7 +72,7 @@ function Projects() {
             </div>
             <div className="linkHolder">
               <a href="https://sprinkling-rainbows.netlify.app/">
-                <FiExternalLink />
+                <FiLink />
               </a>
             </div>
           </div>
@@ -83,7 +82,7 @@ function Projects() {
         <div className="proj3">
           <img
             src={whatToWatch}
-            alt="mock up image of What to Watch website on fake laptop screen"
+            alt="mock up of What to Watch website on fake laptop screen"
           />
           <h4>What to Watch</h4>
           <p>
@@ -102,7 +101,7 @@ function Projects() {
             </div>
             <div className="linkHolder">
               <a href="https://what-to-watch-juno.netlify.app/">
-                <FiExternalLink />
+                <FiLink />
               </a>
             </div>
           </div>
