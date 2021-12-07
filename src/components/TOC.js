@@ -1,75 +1,88 @@
 import blob from "../images/3.png";
 import { BsDashLg } from "react-icons/bs";
+import Slide from 'react-reveal/Slide';
+import Jello from 'react-reveal/Jello';
 
 function TOC() {
   return (
     <div className="tocContainer" id="menu">
       <div className="firstRow">
-        <div className="menuA">
-          <p>01.</p>
-          <h2>
-            <a
-              href="#about"
-              onClick={(e) => {
-                let about = document.getElementById("about");
-                e.preventDefault();
-                about &&
-                  about.scrollIntoView({ behavior: "smooth", block: "start" });
-                window.history.pushState("about", "about", "/about");
-              }}
-            >
-              About
-            </a>
-          </h2>
-        </div>
+        <Slide bottom cascade>
+          <div className="menuA">
+            <p>01.</p>
+            <h2>
+              <a
+                href="#about"
+                onClick={(e) => {
+                  let about = document.getElementById("about");
+                  e.preventDefault();
+                  about &&
+                    about.scrollIntoView({ behavior: "smooth", block: "start" });
+                  window.history.pushState("about", "about", "/about");
+                }}
+              >
+                About
+              </a>
+            </h2>
+          </div>
+        </Slide>
+
         <div className="dash">
-          <i>
-            <BsDashLg />
-            <BsDashLg />
-            <BsDashLg />
-            <BsDashLg />
-            <BsDashLg />
-          </i>
+          <Slide bottom>
+            <i>
+              <BsDashLg />
+              <BsDashLg />
+              <BsDashLg />
+              <BsDashLg />
+              <BsDashLg />
+            </i>
+          </Slide>
         </div>
-        <div className="menuW">
-          <p>02.</p>
+        <Slide bottom cascade>
+          <div className="menuW">
+            <p>02.</p>
+            <h2>
+              <a
+                href="#projects"
+                onClick={(e) => {
+                  let projects = document.getElementById("projects");
+                  e.preventDefault();
+                  projects &&
+                    projects.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  window.history.pushState("projects", "projects", "/projects");
+                }}
+              >
+                Works
+              </a>
+            </h2>
+          </div>
+        </Slide>
+      </div>
+      <Jello>
+        <img className="blob2" src={blob} alt="" />
+      </Jello>
+      <Slide bottom cascade>
+        <div className="menuC">
+          <p>03.</p>
           <h2>
             <a
-              href="#projects"
+              href="#contact"
               onClick={(e) => {
-                let projects = document.getElementById("projects");
+                let contact = document.getElementById("contact");
                 e.preventDefault();
-                projects &&
-                  projects.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-                window.history.pushState("projects", "projects", "/projects");
+                contact &&
+                  contact.scrollIntoView({ behavior: "smooth", block: "start" });
+                window.history.pushState("contact", "contact", "/contact");
               }}
             >
-              Works
+              Contact
             </a>
           </h2>
         </div>
-      </div>
-      <img className="blob2" src={blob} alt="" />
-      <div className="menuC">
-        <p>03.</p>
-        <h2>
-          <a
-            href="#contact"
-            onClick={(e) => {
-              let contact = document.getElementById("contact");
-              e.preventDefault();
-              contact &&
-                contact.scrollIntoView({ behavior: "smooth", block: "start" });
-              window.history.pushState("contact", "contact", "/contact");
-            }}
-          >
-            Contact
-          </a>
-        </h2>
-      </div>
+      </Slide>
     </div>
   );
 }

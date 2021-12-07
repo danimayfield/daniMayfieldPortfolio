@@ -1,4 +1,5 @@
 import "./App.scss";
+import React from "react";
 import Header from "./components/Header";
 import TOC from "./components/TOC";
 import About from "./components/About";

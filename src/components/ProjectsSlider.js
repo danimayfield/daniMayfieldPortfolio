@@ -9,11 +9,15 @@ import ethicalMakeup from "../images/ethicalMakeup.png";
 import sprinklingRainbows from "../images/sprinklingRainbows.png";
 import whatToWatch from "../images/whatToWatch.png";
 import blob from "../images/4.png";
+import Slide from 'react-reveal/Slide';
+import Jello from 'react-reveal/Jello';
 
 function Projects() {
   return (
     <div className="sliderContainer" id="projects">
-      <h2>Projects</h2>
+      <Slide bottom cascade>
+        <h2>Projects</h2>
+      </Slide>
       <Slider
         autoplayDuration={6000}
         renderControls={(next, previous) => [
@@ -109,7 +113,9 @@ function Projects() {
           <p>Javascript | APIs | GitHub | Sass | HTML</p>
         </div>
       </Slider>
-      <img className="blob3" src={blob} alt="" />
+      <Jello>
+        <img className="blob3" src={blob} alt="" />
+      </Jello>
     </div>
   );
 }
