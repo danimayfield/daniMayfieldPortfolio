@@ -18,8 +18,6 @@ function Navigation() {
     e.preventDefault();
     // when menu is clicked , set the scroll to a behaviour of smooth
     menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
-    // push the url state to /menu
-    window.history.pushState("menu", "menu", "/menu");
     // set the active type to be menu
     setActiveType('menu')
 
@@ -33,8 +31,6 @@ function Navigation() {
     e.preventDefault();
     // when about is clicked , set the scroll to a behaviour of smooth
     about && about.scrollIntoView({ behavior: "smooth", block: "start" });
-    // push the url state to /about
-    window.history.pushState("about", "about", "/about");
     // Set the active type to 'about' on click
     setActiveType('about')
 
@@ -48,8 +44,6 @@ function Navigation() {
     e.preventDefault();
     // when projects is clicked , set the scroll to a behaviour of smooth
     projects && projects.scrollIntoView({ behavior: "smooth", block: "start" });
-    // push the url state to /projects
-    window.history.pushState("projects", "projects", "/projects");
     // Set the activetype to be projects
     setActiveType('projects')
 
@@ -63,8 +57,6 @@ function Navigation() {
     e.preventDefault();
     // when contact is clicked , set the scroll to a behaviour of smooth
     contact && contact.scrollIntoView({ behavior: "smooth", block: "start" });
-    // push the url state to /contact
-    window.history.pushState("contact", "contact", "/contact");
     // Set the activetype to be contact
     setActiveType('contact')
 

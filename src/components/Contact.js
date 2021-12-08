@@ -3,8 +3,9 @@ import Slide from 'react-reveal/Slide';
 
 function Contact() {
   return (
+    <Slide bottom cascade> 
     <div className="contactContainer" id="contact">
-      <Slide bottom cascade>
+      
       <h2>Contact</h2>
       <a href="mailto:danimmayfield@gmail.com">danimmayfield@gmail.com</a>
       <div className="iconContainer">
@@ -14,8 +15,8 @@ function Contact() {
         
       </div>
       <p>Website developed by Dani Mayfield 2021</p>
-      </Slide>
     </div>
+    </Slide>
   );
 }
 

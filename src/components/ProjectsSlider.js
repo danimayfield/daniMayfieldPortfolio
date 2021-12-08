@@ -19,7 +19,7 @@ function Projects() {
         <h2>Projects</h2>
       </Slide>
       <Slider
-        autoplayDuration={6000}
+        autoplayDuration={15000}
         renderControls={(next, previous) => [
           <button className="prev" onClick={previous}>
             <FiArrowLeft />
@@ -40,7 +40,7 @@ function Projects() {
             collaborate through GitHub. Working from the brief we utilitized the
             Makeup-api to allow users to view, search and sort through vegan
             makeup products. When users find a product they like, they may click
-            it to view more about it where users may also leave a review
+            on that product to view more details. Users may also leave a review on any product which is stored within firebase.
           </p>
           <div className="projectLinks">
             <div className="linkHolder">

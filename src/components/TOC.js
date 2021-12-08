@@ -18,7 +18,6 @@ function TOC() {
                   e.preventDefault();
                   about &&
                     about.scrollIntoView({ behavior: "smooth", block: "start" });
-                  window.history.pushState("about", "about", "/about");
                 }}
               >
                 About
@@ -52,7 +51,6 @@ function TOC() {
                       behavior: "smooth",
                       block: "start",
                     });
-                  window.history.pushState("projects", "projects", "/projects");
                 }}
               >
                 Works
@@ -75,7 +73,6 @@ function TOC() {
                 e.preventDefault();
                 contact &&
                   contact.scrollIntoView({ behavior: "smooth", block: "start" });
-                window.history.pushState("contact", "contact", "/contact");
               }}
             >
               Contact
