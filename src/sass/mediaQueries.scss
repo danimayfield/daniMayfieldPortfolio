@@ -1,0 +1,492 @@
+@media all and (max-width: 1300px) {
+  // Header
+  header {
+    h1 {
+      margin-left: 5vw;
+      width: 38%;
+    }
+    h3 {
+      margin-left: 5vw;
+      width: 38%;
+    }
+  }
+
+  // Table of Contents
+  .tocContainer {
+    .firstRow {
+      grid-template-columns: 40% 20% 40%;
+    }
+    .menuA {
+      align-items: center;
+    }
+    .blob2 {
+      width: 45%;
+      right: 8vw;
+      top: 10vh;
+    }
+  }
+
+  // About Section
+  .column1 {
+    img {
+      width: 70%;
+    }
+  }
+
+  // Projects Section
+  .proj {
+    padding: 2rem;
+    width: 80%;
+  }
+  .blob3 {
+    bottom: -50vh;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  // Header
+  header {
+    h1 {
+      width: 90%;
+    }
+    h3 {
+      width: 90%;
+    }
+    .blob {
+      top: 32vh;
+      width: 70%;
+    }
+  }
+
+  // About Section
+  .about {
+    .blob4 {
+      top: 30%;
+      left: -11vw;
+    }
+  }
+  .column1 {
+    img {
+      width: 80%;
+    }
+  }
+  .column2 {
+    padding: left 0;
+  }
+
+  // Projects Section
+  .blob3 {
+    width: 40%;
+  }
+}
+
+/* Portrait tablet and small desktops */
+@media all and (max-width: 940px) {
+  // Table of contents
+  .tocContainer {
+    .firstRow {
+      grid-template-columns: 35% 30% 35%;
+    }
+    .blob2 {
+      width: 50%;
+      right: 6vw;
+      top: 12vh;
+    }
+  }
+
+  // About
+  .about {
+    .blob4 {
+      top: 26%;
+    }
+  }
+  .aboutSection {
+    grid-template-columns: 50% 50%;
+  }
+  .column1 {
+    h2 {
+      font-size: 4.5rem;
+      text-align: left;
+      padding-left: 5rem;
+      width: 100%;
+    }
+    img {
+      width: 65%;
+    }
+  }
+  .column2 {
+    padding-left: 0;
+    .mayfield {
+      font-size: 4.5rem;
+      margin: 0 0 5vh 0;
+    }
+  }
+  .aboutText {
+    p {
+      width: 75%;
+    }
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media all and (max-width: 768px) {
+  // Header
+  header {
+    height: 50vh;
+    h1 {
+      width: 100%;
+    }
+    .blob {
+      top: 4vh;
+      left: -19vw;
+      width: 70%;
+    }
+  }
+
+  // Table of contents
+  .tocContainer {
+    .firstRow {
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr;
+      margin: 0;
+    }
+    .dash {
+      display: none;
+    }
+    .menuA {
+      margin-left: -8vw;
+    }
+    .menuW {
+      align-items: center;
+    }
+    .blob2 {
+      width: 50%;
+      right: 6vw;
+      top: 12vh;
+    }
+  }
+
+  // About
+  .about {
+    .blob4 {
+      width: 75%;
+      top: 20%;
+    }
+  }
+  .aboutSection {
+    grid-template-columns: 1fr;
+  }
+  .column1 {
+    align-items: center;
+    h2 {
+      padding-left: 5rem;
+    }
+    .mayfieldMobile {
+      padding-left: 8rem;
+      display: block;
+    }
+  }
+  .column2 {
+    align-items: center;
+    padding-left: 8rem;
+    padding-top: 2vh;
+    .mayfield {
+      display: none;
+    }
+  }
+
+  // Projects
+  .sliderContainer {
+    .prev {
+      left: 5%;
+    }
+    .next {
+      right: 5%;
+    }
+  }
+  .blob3 {
+    bottom: -45vh;
+  }
+}
+
+/* Landscape phones and down */
+@media all and (max-width: 530px) {
+  // Header
+  header {
+    height: 45vh;
+    h1 {
+      font-size: 5rem;
+    }
+    .blob {
+      top: 4vh;
+      left: -19vw;
+      width: 70%;
+    }
+  }
+
+  // Table of contents
+  .tocContainer {
+    .firstRow {
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr;
+      margin: 0;
+    }
+    .menuA {
+      margin-left: 0;
+      padding-left: 4rem;
+      p {
+        width: 100%;
+      }
+      h2 {
+        width: 100%;
+      }
+    }
+    .menuW {
+      padding-left: 4rem;
+      p {
+        width: 100%;
+      }
+      h2 {
+        width: 100%;
+      }
+    }
+    .menuC {
+      padding-left: 4rem;
+      p {
+        width: 100%;
+      }
+      h2 {
+        width: 100%;
+      }
+    }
+    .blob2 {
+      width: 70%;
+      right: 6vw;
+      top: 12vh;
+    }
+  }
+
+  // About
+  .about {
+    .blob4 {
+      top: 15%;
+    }
+  }
+  .column1 {
+    h2 {
+      padding-left: 5rem;
+      font-size: 3.6rem;
+    }
+    .mayfieldMobile {
+      padding-left: 5rem;
+    }
+  }
+  .column2 {
+    padding-left: 5rem;
+  }
+  .aboutText {
+    p {
+      width: 80%;
+    }
+  }
+
+  .toolkit {
+    .iconsGrid {
+      width: 100%;
+      padding: 0 4rem;
+      margin: 0;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+  }
+
+  // Projects
+  .sliderContainer {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+  .proj {
+    padding: 4rem;
+    width: 80%;
+    img {
+      width: 100%;
+    }
+    h4 {
+      margin-top: 5rem;
+    }
+  }
+  .blob3 {
+    bottom: -30vh;
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  // Header
+  header {
+    height: 40vh;
+    .mayfieldHeader {
+      font-size: 3.5rem;
+    }
+    .blob {
+      top: 12vh;
+      left: 45vw;
+    }
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+
+  // Table of contents
+  .tocContainer {
+    .menuA {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+    .menuW {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+    .menuC {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  // About
+  .column1 {
+    h2 {
+      font-size: 2.8rem;
+    }
+    .mayfieldMobile {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  // Header
+  header {
+    .mayfieldHeader {
+      font-size: 3rem;
+    }
+    h3 {
+      padding-left: 1.5rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  // Table of contents
+  .tocContainer {
+    .menuA {
+      h2 {
+        font-size: 2.4rem;
+      }
+    }
+    .menuW {
+      h2 {
+        font-size: 2.4rem;
+      }
+    }
+    .menuC {
+      h2 {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  // About
+  .about {
+    .blob4 {
+      top: 13%;
+    }
+  }
+  .column1 {
+    h2 {
+      font-size: 2rem;
+      padding-left: 3rem;
+    }
+    .mayfieldMobile {
+      padding-left: 3rem;
+    }
+    img {
+      width: 68%;
+      padding: 0;
+    }
+  }
+
+  .column2 {
+    padding-left: 3rem;
+  }
+
+  .toolkit {
+    h3 {
+      font-size: 1.8rem;
+      padding-left: 1rem;
+    }
+    .iconsGrid {
+      width: 100%;
+      padding: 0 1.4rem;
+      margin: 0;
+      row-gap: 0;
+      column-gap: 0.4rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+    }
+  }
+
+  //   Projects
+  .sliderContainer {
+    h2 {
+      font-size: 2rem;
+    }
+    .next {
+      font-size: 2rem;
+      top: 18%;
+    }
+    .prev {
+      font-size: 2rem;
+      top: 18%;
+    }
+  }
+
+  .proj {
+    width: 100%;
+    h4 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .blob3 {
+    width: 45%;
+  }
+
+  //   Contact
+
+  .contactContainer {
+    h2 {
+      font-size: 2.3rem;
+    }
+  }
+
+  //   Navigation
+  .navigation {
+    .navIcon {
+      font-size: 0.6rem;
+    }
+  }
+}
+
+@media all and (max-width: 380px) {
+    .blob3 {
+        bottom: -25vh;
+      }
+}

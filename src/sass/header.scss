@@ -12,12 +12,16 @@ header {
         text-align: left;
         width: 30%;
         margin-left: 20vw;
+        position: relative;
+        z-index: 2;
     }
     h3 {
         text-align: left;
         width: 30%;
         margin-top:0;
         margin-left: 20vw;
+        position: relative;
+        z-index: 2;
     }
     .blob {
         position: absolute;

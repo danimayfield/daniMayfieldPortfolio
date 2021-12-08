@@ -5,9 +5,9 @@
   position: relative;
   .blob4{
     position: absolute;
-    top: 14%;
+    top: 11%;
     left: -7vw;
-    width: 55%;
+    width: 50%;
     transform: rotate(160deg);
   }
 }
@@ -29,6 +29,9 @@
     font-size: 6rem;
     margin: 0;
     color: #b34b17;
+  }
+  .mayfieldMobile {
+    display:none;
   }
   img {
     width: 50%;

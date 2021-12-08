@@ -5,7 +5,7 @@ import Jello from 'react-reveal/Jello';
 
 function TOC() {
   return (
-    <div className="tocContainer" id="menu">
+    <div className="tocContainer wrapper" id="menu">
       <div className="firstRow">
         <Slide bottom cascade>
           <div className="menuA">

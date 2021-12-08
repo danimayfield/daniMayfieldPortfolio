@@ -3,9 +3,9 @@ import Jello from 'react-reveal/Jello';
 
 function Header() {
     return (
-      <header>
+      <header className="wrapper">
           <div className="headerText">
-            <h1>Dani Mayfield</h1>
+            <h1>Dani <span className="mayfieldHeader">Mayfield</span></h1>
             <h3>Web Developer</h3>
           </div>
           <Jello>
