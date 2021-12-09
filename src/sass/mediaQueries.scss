@@ -329,12 +329,21 @@
     height: 40vh;
     .mayfieldHeader {
       font-size: 3.5rem;
+      width: 100%;
+    }
+    h1{
+      width: 100%;
+      margin:2rem 0;
+      text-align: center;
     }
     .blob {
-      top: 12vh;
-      left: 45vw;
+      top: 10vh;
+
     }
     h3 {
+      width: 100%;
+      text-align: center;
+      margin: 2rem 0;
       font-size: 1.8rem;
     }
   }

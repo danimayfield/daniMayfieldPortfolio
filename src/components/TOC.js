@@ -13,9 +13,13 @@ function TOC() {
             <h2>
               <a
                 href="#about"
+                // On click = function to scroll smoothly 
                 onClick={(e) => {
+                  // set variable menu to the element with the id of about
                   let about = document.getElementById("about");
+                  // prevent the default snap to that id
                   e.preventDefault();
+                  // when about is clicked , set the scroll to a behaviour of smooth
                   about &&
                     about.scrollIntoView({ behavior: "smooth", block: "start" });
                 }}
@@ -43,9 +47,13 @@ function TOC() {
             <h2>
               <a
                 href="#projects"
+                // On click = function to scroll smoothly 
                 onClick={(e) => {
+                  // set variable menu to the element with the id of projects
                   let projects = document.getElementById("projects");
+                  // prevent the default snap to that id
                   e.preventDefault();
+                  // when projects is clicked , set the scroll to a behaviour of smooth
                   projects &&
                     projects.scrollIntoView({
                       behavior: "smooth",
@@ -68,9 +76,13 @@ function TOC() {
           <h2>
             <a
               href="#contact"
+              // On click = function to scroll smoothly 
               onClick={(e) => {
+                // set variable menu to the element with the id of contact
                 let contact = document.getElementById("contact");
+                // prevent the default snap to that id
                 e.preventDefault();
+                // when contact is clicked , set the scroll to a behaviour of smooth
                 contact &&
                   contact.scrollIntoView({ behavior: "smooth", block: "start" });
               }}
