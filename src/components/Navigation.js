@@ -67,6 +67,7 @@ function Navigation() {
   return (
     <div className="navigation">
       <a
+        aria-label="menu"
         href="#menu"
         // On click function to scroll smoothly
         onClick={handleMenuClick}
@@ -74,6 +75,7 @@ function Navigation() {
         className={`navIcon ${(activeType === 'menu') || (scroll === 'menu') ? 'navActive' : null} ${scroll !== 'menu' ? 'navInactive' : null}`}
       ><BsCircleFill /></a>
       <a
+        aria-label="about"
         href="#about"
         // On click function to scroll smoothly
         onClick={handleAboutClick}
@@ -81,6 +83,7 @@ function Navigation() {
         className={`navIcon ${(activeType === 'about') || (scroll === "about") ? 'navActive' : null} ${scroll !== 'about' ? 'navInactive' : null}`}
       ><BsCircleFill /></a>
       <a
+        aria-label="projects"
         href="#projects"
         // On click function to scroll smoothly
         onClick={handleProjectsClick}
@@ -89,6 +92,7 @@ function Navigation() {
 
       ><BsCircleFill /></a>
       <a
+        aria-label="contact"
         href="#contact"
         // On click function to scroll smoothly
         onClick={handleContactClick}

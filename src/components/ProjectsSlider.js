@@ -114,7 +114,7 @@ function Projects() {
           </div>
         </Slider>
         <Jello>
-          <img className="blob3" src={blob} alt="" />
+          <img className="blob3" src={blob} alt="Grey blob on side of screen for design" />
         </Jello>
       </div>
     </div>

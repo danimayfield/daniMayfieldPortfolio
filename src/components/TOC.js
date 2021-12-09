@@ -60,7 +60,7 @@ function TOC() {
         </Slide>
       </div>
       <Jello>
-        <img className="blob2" src={blob} alt="" />
+        <img className="blob2" src={blob} alt="orange blob for design" />
       </Jello>
       <Slide bottom cascade>
         <div className="menuC">
