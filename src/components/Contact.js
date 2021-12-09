@@ -1,4 +1,4 @@
-import { FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
+import { FiLinkedin, FiGithub, FiMail, FiTwitter } from "react-icons/fi";
 import Slide from "react-reveal/Slide";
 
 function Contact() {
@@ -24,10 +24,16 @@ function Contact() {
               </a>
             </div>
             <div className="iconHolder">
+              <a className="contactIcon" href="https://twitter.com/danimayf">
+                <FiTwitter />
+              </a>
+            </div>
+            <div className="iconHolder">
               <a className="contactIcon" href="mailto:danimmayfield@gmail.com">
                 <FiMail />
               </a>
             </div>
+            
           </div>
           <p>Website developed by Dani Mayfield 2021</p>
           </div>
