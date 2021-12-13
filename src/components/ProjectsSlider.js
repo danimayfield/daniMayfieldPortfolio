@@ -40,18 +40,13 @@ function Projects() {
               leave a review on any product which is stored within firebase.
             </p>
             <div className="projectLinks">
-              <div className="linkHolder">
-                <a href="https://github.com/group-project-four/ethicalMakeup">
-                  <FiGithub />
-                </a>
-              </div>
-              <div className="linkHolder">
-                <a href="https://ethical-makeup-4.netlify.app">
-                  <FiLink />
-                </a>
-              </div>
+              <a href="https://github.com/group-project-four/ethicalMakeup">
+                <FiGithub />
+              </a>
+              <a href="https://ethical-makeup-4.netlify.app">
+                <FiLink />
+              </a>
             </div>
-
             <p>
               React | Javascript | APIs | Firebase | GitHub | Sass | Figma |
               HTML
@@ -69,18 +64,13 @@ function Projects() {
               may also add and remove items to their cart.
             </p>
             <div className="projectLinks">
-              <div className="linkHolder">
-                <a href="https://github.com/danimayfield/daniellaGagliardiProject3">
-                  <FiGithub />
-                </a>
-              </div>
-              <div className="linkHolder">
-                <a href="https://sprinkling-rainbows.netlify.app/">
-                  <FiLink />
-                </a>
-              </div>
+              <a href="https://github.com/danimayfield/daniellaGagliardiProject3">
+                <FiGithub />
+              </a>
+              <a href="https://sprinkling-rainbows.netlify.app/">
+                <FiLink />
+              </a>
             </div>
-
             <p>React | Javascript | Firebase | GitHub | CSS | HTML</p>
           </div>
           <div className="proj">
@@ -98,18 +88,13 @@ function Projects() {
               remove items from your watchlist once you've finished the movie.{" "}
             </p>
             <div className="projectLinks">
-              <div className="linkHolder">
-                <a href="https://github.com/Cohort-37-Group-14/What-to-Watch">
-                  <FiGithub />
-                </a>
-              </div>
-              <div className="linkHolder">
-                <a href="https://what-to-watch-juno.netlify.app/">
-                  <FiLink />
-                </a>
-              </div>
+              <a href="https://github.com/Cohort-37-Group-14/What-to-Watch">
+                <FiGithub />
+              </a>
+              <a href="https://what-to-watch-juno.netlify.app/">
+                <FiLink />
+              </a>
             </div>
-
             <p>Javascript | APIs | GitHub | Sass | HTML</p>
           </div>
         </Slider>
