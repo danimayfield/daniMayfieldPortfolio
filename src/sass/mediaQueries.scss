@@ -496,6 +496,7 @@
 
 @media all and (max-width: 380px) {
     .blob3 {
-        bottom: -25vh;
+        display: none;
+        // bottom: -25vh;
       }
 }
