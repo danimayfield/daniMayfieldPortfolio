@@ -1,5 +1,6 @@
 import Slider from "react-perfect-slider";
 import { FiGithub, FiLink, FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import myDivePlan from "../images/myDivePlan.png";
 import ethicalMakeup from "../images/ethicalMakeup.png";
 import sprinklingRainbows from "../images/sprinklingRainbows.png";
 import whatToWatch from "../images/whatToWatch.png";
@@ -25,6 +26,28 @@ function Projects() {
             </button>,
           ]}
         >
+          <div className="proj">
+            <img
+              src={myDivePlan}
+              alt="mock up of My Dive Plan website on fake laptop screen"
+            />
+            <h4>My Dive Plan</h4>
+            <p>
+              My Dive Plan is an application that allows users to plan out their scuba dives. Based on their choices the application informs the user whether they require a safety stop or have exceeded their limits. The user can plan up to 2 consecutive dives on this application and they may save the information in the divebook so they may view it later.
+            </p>
+            <div className="projectLinks">
+              <a href="https://github.com/danimayfield/divePlanApp">
+                <FiGithub />
+              </a>
+              <a href="https://my-dive-plan.netlify.app/">
+                <FiLink />
+              </a>
+            </div>
+            <p>
+              React | Javascript | Firebase | GitHub | Sass |
+              HTML
+            </p>
+          </div>
           <div className="proj">
             <img
               src={ethicalMakeup}
