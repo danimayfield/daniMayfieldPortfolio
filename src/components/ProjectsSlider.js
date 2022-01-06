@@ -71,8 +71,7 @@ function Projects() {
               </a>
             </div>
             <p>
-              React | Javascript | APIs | Firebase | GitHub | Netlify  | Sass | Figma |
-              HTML
+              React | Javascript | APIs | Firebase | GitHub | Netlify  | Sass | Figma | Jira | HTML
             </p>
           </div>
           <div className="proj">
