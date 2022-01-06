@@ -44,7 +44,7 @@ function Projects() {
               </a>
             </div>
             <p>
-              React | Javascript | Firebase | GitHub | Sass |
+              React | Javascript | Firebase | GitHub | Netlify | Sass |
               HTML
             </p>
           </div>
@@ -71,7 +71,7 @@ function Projects() {
               </a>
             </div>
             <p>
-              React | Javascript | APIs | Firebase | GitHub | Sass | Figma |
+              React | Javascript | APIs | Firebase | GitHub | Netlify  | Sass | Figma |
               HTML
             </p>
           </div>
@@ -94,7 +94,7 @@ function Projects() {
                 <FiLink />
               </a>
             </div>
-            <p>React | Javascript | Firebase | GitHub | CSS | HTML</p>
+            <p>React | Javascript | Firebase | GitHub | Netlify | CSS | HTML</p>
           </div>
           <div className="proj">
             <img
@@ -118,7 +118,7 @@ function Projects() {
                 <FiLink />
               </a>
             </div>
-            <p>Javascript | APIs | GitHub | Sass | HTML</p>
+            <p>Javascript | APIs | GitHub | Netlify | Sass | HTML</p>
           </div>
         </Slider>
         <Jello>
