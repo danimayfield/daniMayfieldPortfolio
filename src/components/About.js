@@ -50,9 +50,9 @@ function About() {
                   <strong>What I'm currently learning: </strong>
                 </p>
                 <ul>
-                  <li key="web3">Web3</li>
-                  <li key="solidity">Solidity</li>
                   <li key="epicReact">Epic React by Kent C. Dodds</li>
+                  <li key="redux">Redux</li>
+                  {/* <li key="web3">Web3</li> */}
                 </ul>
               </div>
             </div>
