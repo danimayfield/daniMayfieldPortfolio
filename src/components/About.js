@@ -5,7 +5,7 @@ import { RiCss3Line } from "react-icons/ri";
 import { FaSass } from "react-icons/fa";
 import { DiJavascript1, DiReact } from "react-icons/di";
 import { FiGithub, FiFigma } from "react-icons/fi";
-import { SiFirebase, SiAdobecreativecloud } from "react-icons/si";
+import { SiFirebase, SiAdobecreativecloud, SiRedux } from "react-icons/si";
 import { CgSmartphone } from "react-icons/cg";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import Slide from "react-reveal/Slide";
@@ -51,8 +51,8 @@ function About() {
                 </p>
                 <ul>
                   <li key="epicReact">Epic React by Kent C. Dodds</li>
-                  <li key="redux">Redux</li>
-                  <li key="web3">Solidity/Web3</li>
+                  <li key="jest">Jest</li>
+                  <li key="typescript">Typescript</li>
                 </ul>
               </div>
             </div>
@@ -91,6 +91,12 @@ function About() {
                   <DiReact />
                 </i>
                 <p>React</p>
+              </div>
+              <div className="iconContainer">
+                <i>
+                  <SiRedux />
+                </i>
+                <p>Redux</p>
               </div>
               <div className="iconContainer">
                 <i>
